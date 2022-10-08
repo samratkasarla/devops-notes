@@ -1,0 +1,58 @@
+
+glpat-sgCSYHsC12X9vVx1f8yz
+
+samratkasarla
+Vadapao@123
+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
+
+samrat-sabertooth
+Samrat26@123
+
+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
+65.1.133.255
+
+  company aws account digits
+384146742994
+arn:aws:iam::880102778672:role/questimates-sandbox-administrator
+arn:aws:iam::458243029077:role/questimates-dev-developer
+
+Access Key id: AKIAVS4HOD3JBXRGBN7C
+Secret Access Key: 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
+
+https://github.com/questimates-msc
+
+https://github.com/Sabertoothtech/CryptoJhinga_FrontEnd
+
+https://github.com/Sabertoothtech/sennzo.git
+
+https://github.com/Sabertoothtech/enzzu_fronted_react.git
+
+
+https://app.questimate.in/
+
+login,stock_info,newstweets,operations,autologin,stock_live price
+
+aws sts assume-role --role-arn arn:aws:iam::458243029077:role/questimates-dev-developer --role-session-name "eks-access" --serial-number arn:aws:iam::384146742994:mfa/gohako01 --duration-seconds 43100 --token-code
+
+export AWS_ACCESS_KEY_ID=RoleAccessKeyID
+export AWS_SECRET_ACCESS_KEY=RoleSecretKey 
+export AWS_SESSION_TOKEN=RoleSessionToken
+
+aws eks update-kubeconfig --region ap-south-1 --name quest-manual-eks
+
+linodes 
+Password -Neveragainirobot_228
+username - SabertoothTechnology
+
+ChessKnight
+Password: Sennzo2022+ 
+
+media@sabertoothtech.in
+2U$'?pNw?U$2+Hg
+
+
+
+
+
+
+
