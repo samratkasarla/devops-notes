@@ -1,0 +1,36 @@
+
+docker rmi $(docker images -a -q)
+
+docker stop $(docker ps -a -q)
+docker rm $(docker ps -a -q)
+docker image prune
+
+docker login -u username -p password
+
+
+docker run --name mariadbh2s -p 3306:3306  -e MYSQL_ROOT_PASSWORD=password -d mariadb
+
+docker run -p 49160:8080 -d <your username>/node-web-app
+
+docker volume create sonarqube-conf 
+
+/var/lib/docker
+
+
+launching instance ,subnets, user, group.
+
+docker volume ls
+
+docker build -t myjenkins .
+
+docker run -p 8080:8080 -p 50000:50000 --name=jenkins-master --mount source=jenkins-log, target=/var/log/jenkins --mount source=jenkins-data,target=/var/jenkins_home -d myjenkins
+
+sudo docker search mongodb
+
+sudo docker-compose up -d
+
+sudo docker create ubuntu:18.04
+
+docker run --it --rm django-dev
+
+docker system prune --all --force --volumes

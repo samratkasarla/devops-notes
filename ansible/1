@@ -1,0 +1,24 @@
+Ansible is the automation tool for configuration management.
+
+PLAYBOOKS
+Ansible Playbooks offer a repeatable, re-usable, simple configuration management and multi-machine deployment system, one that is well suited to deploying complex applications. If you need to execute a task with Ansible more than once, write a playbook and put it under source control. Then you can use the playbook to push out new configuration or confirm the configuration of remote systems.
+
+configuration management tool -- Ansible
+chef, ansible, puppet
+
+highly used configuration management tool.
+-ansible, chef, puppet
+
+ansible--good for patching and updation.
+
+No agent is needed to install on any instance.
+ansible works on ssh protocol.
+ansible is python language based.
+
+cat /etc/ansible/ansible.cfg  --configuration file of ansible.
+#ansible -i hosts all -u centos --private-key=/home/centos/shubham-nv -m ping  --for using ping module
+
+'hosts' file is called inventary.
+ansible -i /etc/ansible/hosts all -u centos --private-key /home/centos/shubham.nv.pem -m ping
+
+#ansible-playbook -u centos --private-key /pathofkey Playbooks/myplaybook.yaml
