@@ -16,7 +16,7 @@ ansible works on ssh protocol.
 ansible is python language based.
 
 cat /etc/ansible/ansible.cfg  --configuration file of ansible.
-#ansible -i hosts all -u centos --private-key=/home/centos/shubham-nv -m ping  --for using ping module
+#ansible -i hosts all -u centos --private-key /home/centos/shubham-nv -m ping  --for using ping module
 
 'hosts' file is called inventary.
 ansible -i /etc/ansible/hosts all -u centos --private-key /home/centos/shubham.nv.pem -m ping

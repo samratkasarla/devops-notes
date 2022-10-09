@@ -1,0 +1,7 @@
+SonarQube, is a self-managed, automatic code review tool that systematically helps you deliver Clean Code.
+The tool analyses 30+ different programming languages and integrates into your CI pipeline and DevOps platform to ensure that your code meets high-quality standards.
+The Clean as You Code approach uses your Quality Gate to alert/inform you when there’s something to fix or review in your New Code (code that has been added or changed), allowing you to maintain high standards and focus on code quality.
+
+A Quality Gate is an indicator of code quality that can be configured to give a go/no-go signal on the current release-worthiness of the code. It indicates whether your code is clean and can move forward
+A passing (green) Quality Gate means the code meets your standard and is ready to be merged.
+A failing (red) Quality Gate means there are issues to address.
