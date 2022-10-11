@@ -1,0 +1,18 @@
+docker save
+
+how will we close the shell script 
+
+what is shebang line
+
+docker inspect
+
+what is configmap ?
+
+what is secret ?
+
+what are types of services ?
+
+how to run docker container in detach mode.
+
+how to delete all the services , deployment or ingress ?
+
