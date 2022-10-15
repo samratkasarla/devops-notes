@@ -1,0 +1,24 @@
+worked On eks .
+made manifest files like deployment file service file configmap file for microservices.
+
+branching strategy  was monorepo.
+team A , team B , team C
+
+making dockerfiles for the project...
+
+containerizing an application.
+
+s3  standard
+s3 standard infrequent access
+s3 standard IA -one zone
+intelligent tiering
+glaciar instant retrieval
+glaciar flexible retrieval
+glaciar deep archive
+
+Python
+# importing a module
+# defining a fucntion
+# loops, if , if else , if elif ,
+# data type, list tuple string int
+

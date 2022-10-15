@@ -1,0 +1,15 @@
+terraform show 
+terraform state list
+terraform plan -var-file="stage.tfvars"
+terraform plan -var="instance_type=t2.micro"
+terraform apply -var="instance_type=t2.micro"
+
+#terraform workspace list
+#terraform workspace new dev
+#terraform workspace new test
+#terraform workspace show
+#terraform workspace select dev
+
+terraform console
+
+terraform plan -lock=false

@@ -1,0 +1,16 @@
+self managed , self healing kubernetes architecture.
+we as a operator have to take less manual effort because of that.
+
+3 process must be installed on every node
+
+1. container runtime
+2. kubelet -interact with both container and nodes. kubelet start the pods with the container.
+
+3. kube-proxy
+which lowers the network overhead
+
+how to 1. schedule a pods
+       2. moniter the pods
+       3. reschedule or restart the pods
+       4. join  a new node
+

@@ -1,0 +1,15 @@
+from logging import RootLogger
+
+
+creating role for ec2....to give access of s3 bucket
+
+created roles for lambda functions
+
+assume Role 
+
+types of policies...identity based and resourced based policy.
+
+direct policy....copy policy from other user.... adding user to the group. 
+
+permission boundry
+

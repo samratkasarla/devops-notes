@@ -1,0 +1,40 @@
+kubectl create -h
+kubectl create deployment nginx-depl --image=nginx
+kubectl get replicaset
+kubectl edit deployment nginx-depl
+kubectl logs <pod_name>
+kubectl describe pod <pod_name>
+kubectl exec -it <pod_name> --/bin/bash
+
+kubectl get pod mongo-75f59d57f4-4nd6q --template='{{(index (index .spec.containers 0).ports 0).containerPort}}{{"\n"}}'
+
+kubectl port-forward pods/mongo-75f59d57f4-4nd6q 28015:27017
+
+kubectl port-forward deployment/mongo 28015:27017
+
+kubectl port-forward replicaset/mongo-75f59d57f4 28015:27017
+
+kubectl port-forward service/mongo 28015:27017
+
+kubectl get pod -o wide
+
+
+
+
+kubectl get deployment nginx-deployment -o yaml > result.yaml
+
+kubectl delete -f nginx-deployment.yaml
+
+kubectl describe configmaps <name>
+
+kubectl get namespace
+
+kubectl cluster-info 
+kubectl create namespace my-namespace
+kubectl apply -f configmap.yaml --namespace=my-namespace
+
+kubectl rollout restart deployment <deployment_name> -n <namespace>
+Kubectl get deployment <name> -n dev -o yaml
+
+
+kubectl get pvc -n <namespace>

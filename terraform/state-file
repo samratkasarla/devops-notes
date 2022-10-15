@@ -1,0 +1,15 @@
+https://learn.hashicorp.com/tutorials/terraform/state-cli
+
+Terraform stores information about your infrastructure in a state file. This state file keeps track of resources created by your configuration and maps them to real-world resources.
+
+Terraform compares your configuration with the state file and your existing infrastructure to create plans and make changes to your infrastructure. When you run terraform apply or terraform destroy against your initialized configuration, Terraform writes metadata about your configuration to the state file and updates your infrastructure resources accordingly.
+
+Now that you have applied this configuration, you have a local state file that tracks the resources Terraform created. Check your directory to confirm the terraform.tfstate file exists.
+
+You should not manually change information in your state file in a real-world situation to avoid unnecessary drift between your Terraform configuration, state, and infrastructure. Any change in state could result in your infrastructure being destroyed and recreated at your next terraform apply.
+
+The Terraform CLI allows you to review resources in the state file without interacting with the .tfstate file itself. This is how you should interact with your state.
+
+Run terraform show to get a human-friendly output of the resources contained in your state.
+
+Run terraform state list to get the list of resource names and local identifiers in your state file. This command is useful for more complex configurations where you need to find a specific resource without parsing state with terraform show.
