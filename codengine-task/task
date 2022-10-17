@@ -1,0 +1,18 @@
+CI/CD
+=====
+
+Create a CI/CD process on the GitLab server. Using Docker for the same will be a plus. 
+The project will have Node as API server and Angular as a frontend with MySQL DB attached to nodejs. 
+It should be implemented on a Linux ubuntu server. 
+Create any test server. and share the credentials of the same with the access of GitLab as well. 
+The server should point to any XYZ dummy domain to test the changes on successful CI/CD.
+
+Nginx
+=====
+Setup a POC for Nginx reverse proxy where a request would hit the nginx server and it should be load balanced between 2 backend servers.
+ 
+
+MySQL Replication
+=================
+
+Setup a POC for MySQL master-master replication.

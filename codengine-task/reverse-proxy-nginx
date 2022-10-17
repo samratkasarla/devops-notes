@@ -1,0 +1,25 @@
+
+https://www.theserverside.com/blog/Coffee-Talk-Java-News-Stories-and-Opinions/How-to-setup-Nginx-reverse-proxy-servers-by-example
+
+nginx use 
+proxy_pass Directive
+
+location /some/path/ {
+    proxy_pass http://www.example.com/link/;
+}
+
+default behaviour is nginx close connection before forwarding request to the server 
+
+location /some/path/ {
+    proxy_set_header Host $host;
+    proxy_set_header X-Real-IP $remote_addr;
+    proxy_pass http://localhost:8000;
+}
+
+cd /etc/nginx
+cat nginx.conf
+
+cd conf.d
+we will get two files here default.conf and web.conf
+
+in default.conf we get url of backend running...in this case it is on port 9001

@@ -6,6 +6,7 @@ pipeline
 git 
 github
 gradle
+sonarscanner
 
 plugins that we use commonly in jenkins.
 

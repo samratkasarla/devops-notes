@@ -1,0 +1,20 @@
+https://www.theserverside.com/blog/Coffee-Talk-Java-News-Stories-and-Opinions/How-to-setup-an-Nginx-load-balancer-example
+types of load balancing with nginx
+
+1.simple load balancing
+2.weighted approach
+load is balaced according to resource of backend server
+
+3.least connections
+
+
+
+public instance-setup nginx as reverse proxy
+
+two backend private instance.
+
+public subnet and private subnet
+nginx will be in pub subnet and two backend will be in private subnet.
+nat gateway should be created here.
+nat-gateway will be created in public subnet. and private subnet will be associated with it.
+

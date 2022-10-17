@@ -1,0 +1,3 @@
+sudo ufw app list
+sudo ufw status
+curl -4 icanhazip.com
