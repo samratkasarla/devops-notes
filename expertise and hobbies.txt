@@ -1,0 +1,48 @@
+*Automated CI/CD Jenkins pipeline with the stages involves Pull stage, Build stage, Test stage and Deploy using
+various tools and plugins.
+
+*As a version control central Repository work with Github and automated it with Jenkins
+
+*To build the code work with the tool Maven and to Integrate the Testing phase use the Sonarqube tool and deploy
+ it to the Tomcat server.
+
+*Experience with container-based deployments using Docker, working with Docker images, Docker hub, ECR and
+Docker registries.
+
+*Actively worked on Docker and dockerfile
+
+*Created manifest files to deploy microservices on aws EKS cluster, Worked on Dockerfile for the building images
+for microservices
+
+*Used DOCKER for containerisation, creating containers, push and pull of images from docker account, saving
+customized images.
+
+*Used Terraform to create infrastructure like launch instances, created security group, created vpc, and s3 bucket.
+
+*Have knowledge of nginx, load balancing with nginx
+
+*I have created multiple buckets and hosted static websites on buckets, applied versioning for recovering from any
+accidental overwrites and deletion and also created a lifecycle policy to reduce the cost of the storage.
+
+*Creating and launching EC2 instances using different AMIs of ubuntu, centos 7, and Amazon Linux and hosted a
+
+*Created Snapshots and Amazon Machine Images (AMI) of EC2 Instance for snapshots for creating a clone and
+backup purpose.
+
+*Perform Autoscaling with Load-balancer operation to maintain highly scalability and availability
+
+*Created security groups to allow required traffic on given port no, Created VPC, Created subnets to send traffic in
+different availability zones. created Route table to determine where network traffic from your subnet or gateway is
+directed.
+
+*Establish a peering connection for allowing traffic between VPCs that are in different regions and different
+accounts.
+
+*I have routed the traffic on existing domain to Aws resource with the help of route53.
+Hands-on on creating and managing databases using RDS service.
+
+*Created alarms to get notifications when the threshold is breached and monitored logs and metrics in Cloudwatch
+
+
+Hobbies.
+watching movies 
